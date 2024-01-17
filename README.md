@@ -5,7 +5,9 @@ There was two json server
 First, run both the two server into different terminal:
 
 recipes.json=>
-npm run json-recipes
+```diff
+text in green npm run json-recipes
+```
 
 ingredients.json=>
 npm run json-ingredients
