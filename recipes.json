@@ -1,0 +1,152 @@
+{
+  "recipes": [
+    {
+      "title": "Chicken Handi",
+      "ingredients": [
+        "Chicken",
+        "Onion",
+        "Tomatoes",
+        "Garlic",
+        "Ginger",
+        "Cumin seeds",
+        "Vegetable oil",
+        "Turmeric powder",
+        "Chili powder",
+        "Yogurt",
+        "Green Chili"
+      ],
+      "instructions": "Take a large pot or wok, big enough to cook all the chicken, and heat the oil in it. Once the oil is hot, add sliced onion and fry them until deep golden brown. Then take them out on a plate and set aside. To the same pot, add the chopped garlic and sauté for a minute. Then add the chopped tomatoes and cook until tomatoes turn soft. This would take about 5 minutes. Then return the fried onion to the pot and stir. Add ginger paste and sauté well. Now add the cumin seeds, half of the coriander seeds, and chopped green chilies. Give them a quick stir. Next goes in the spices – turmeric powder and red chili powder. Sauté the spices well for a couple of minutes. Add the chicken pieces to the wok, season it with salt to taste and cook the chicken covered on medium-low heat until the chicken is almost cooked through. This would take about 15 minutes. Slowly sautéing the chicken will enhance the flavor, so do not expedite this step by putting it on high heat. When the oil separates from the spices, add the beaten yogurt keeping the heat on lowest so that the yogurt doesn’t split. Sprinkle the remaining coriander seeds and add half of the dried fenugreek leaves. Mix well. Finally add the cream and give a final mix to combine everything well. Sprinkle the remaining kasuri methi and garam masala and serve the chicken handi hot with naan or rotis.",
+      "image": "https://www.themealdb.com/images/media/meals/wyxwsp1486979827.jpg",
+      "id": "10001"
+    },
+    {
+      "id": "bafdff8fb54",
+      "title": "Dal fry",
+      "ingredients": [
+        "Eggs",
+        "Milk",
+        "Sugar",
+        "Flour",
+        "Aloo",
+        "Begun"
+      ],
+      "instructions": "Wash and soak toor dal in approx.\n3 cups of water, for at least one hours.\nDal will be double in volume after soaking.\nDrain the water.\nCook dal with 2-1/2 cups water and add salt, turmeric, on medium high heat, until soft in texture (approximately 30 mins) it should be like thick soup.\nIn a frying pan, heat the ghee.\nAdd cumin seeds, and mustard seeds.\nAfter the seeds crack, add bay leaves, green chili, ginger and chili powder.\nStir for a few seconds.\nAdd tomatoes, salt and sugar stir and cook ",
+      "image": "https://www.themealdb.com/images/media/meals/wuxrtu1483564410.jpg"
+    },
+    {
+      "id": "8e017cacadf",
+      "title": "Lamb Biryani",
+      "ingredients": [
+        "Hilsa fish",
+        "Begun",
+        "Aloo",
+        "Shrimp",
+        "Chilli Sauce",
+        "Panch Phoron",
+        "Bay leaves",
+        "Green chilies",
+        "Mangoes"
+      ],
+      "instructions": "Grind the cashew, poppy seeds and cumin seeds into a smooth paste, using as little water as possible.\nSet aside.\nDeep fry the sliced onions when it is hot.\nDon’t overcrowd the oil.\nWhen the onions turn light brown, remove from oil and drain on paper towel.\nThe fried onion will crisp up as it drains.\nAlso fry the cashewnuts till golden brown.\nSet aside.\nWash the rice and soak in water for twenty minutes.\nMeanwhile, take a big wide pan, add oil in medium heat, add the sliced onions.",
+      "image": "https://www.themealdb.com/images/media/meals/xrttsx1487339558.jpg"
+    },
+    {
+      "title": "Chicken Biryani",
+      "ingredients": [
+        "Aloo",
+        "Shrimp",
+        "Chilli Sauce",
+        "Panch Phoron",
+        "Bay leaves",
+        "Green chilies",
+        "Mangoes"
+      ],
+      "instructions": "lamsddm dnbwf  fscnf fhcsnfwnsfj fn  sc bxc wf fscvnbsf neff",
+      "image": "https://www.themealdb.com/images/media/meals/xrttsx1487339558.jpg",
+      "id": "e017cacadf3"
+    },
+    {
+      "id": "017cacadf3d",
+      "title": "Tandoori chicken",
+      "ingredients": [
+        "Milk",
+        "Sugar",
+        "Eggs",
+        "Flour",
+        "Turmeric powder",
+        "Mustard oil",
+        "Chili powder",
+        "Cumin seeds"
+      ],
+      "instructions": "Mix the lemon juice with the paprika and red onions in a large shallow dish.Slash each chicken thigh three times, then turn them in the juice and set aside for 10 mins.Mix all of the marinade ingredients together and pour over the chicken.\nGive everything a good mix, then cover and chill for at least 1 hr.This can be done up to a day in advance.Heat the grill.\nLift the chicken pieces onto a rack over a baking tray.Brush over a little oil and grill for 8 mins on each side or until lightly charred",
+      "image": "https://www.themealdb.com/images/media/meals/qptpvt1487339892.jpg"
+    },
+    {
+      "id": "17cacadf3d6",
+      "title": "Baingan Bharta",
+      "ingredients": [
+        "Flour",
+        "Eggs",
+        "Milk",
+        "Sugar",
+        "Butter",
+        "Salt",
+        "Coriander seeds",
+        "Cumin seeds",
+        "Chili powder"
+      ],
+      "instructions": "Rinse the baingan (eggplant or aubergine) in water.\nPat dry with a kitchen napkin.\nApply some oil all over and keep it for roasting on an open flame.\nYou can also grill the baingan or roast in the oven.\nBut then you won't get the smoky flavor of the baingan.\nKeep the eggplant turning after a 2 to 3 minutes on the flame, so that its evenly cooked.\nYou could also embed some garlic cloves in the baingan and then roast it.",
+      "image": "https://www.themealdb.com/images/media/meals/urtpqw1487341253.jpg"
+    },
+    {
+      "id": "7cacadf3d69",
+      "title": "Smoked Haddock Kedgeree",
+      "ingredients": [
+        "Milk",
+        "Sugar",
+        "Chili powder",
+        "Turmeric powder",
+        "Mustard oil",
+        "Cumin seeds",
+        "Potatoes",
+        "Chickpeas",
+        "Tomatoes",
+        "Lentils"
+      ],
+      "instructions": "Melt 50g butter in a large saucepan (about 20cm across), add 1 finely chopped medium onion and cook gently over a medium heat for 5 minutes, until softened but not browned.\nStir in 3 split cardamom pods, ¼ tsp turmeric, 1 small cinnamon stick and 2 bay leaves, then cook for 1 minute.\nTip in 450g basmati rice and stir until it is all well coated in the spicy butter.\nPour in 1 litre chicken or fish stock, add ½ teaspoon salt and bring to the boil, stir once to release any rice from the bottom of",
+      "image": "https://www.themealdb.com/images/media/meals/1550441275.jpg"
+    },
+    {
+      "id": "cacadf3d693",
+      "title": "Nutty Chicken Curry",
+      "ingredients": [
+        "Sugar",
+        "Milk",
+        "Cumin seeds",
+        "Chili powder",
+        "Turmeric powder",
+        "Coriander seeds",
+        "Rice",
+        "Fish",
+        "Chicken",
+        "Yogurt",
+        "Lime juice",
+        "Coconut milk"
+      ],
+      "instructions": "Finely slice a quarter of the chilli, then put the rest in a food processor with the ginger, garlic, coriander stalks and one-third of the leaves.\nWhizz to a rough paste with a splash of water if needed.\nHeat the oil in a frying pan, then quickly brown the chicken chunks for 1 min.\nStir in the paste for another min, then add the peanut butter, stock and yogurt.\nWhen the sauce is gently bubbling, cook for 10 mins until the chicken is just cooked through and sauce thickened.\nStir in most of the remaining coriander, then scatter the rest on top with the chilli, if using.\nEat with rice or mashed sweet potato.",
+      "image": "https://www.themealdb.com/images/media/meals/yxsurp1511304301.jpg"
+    },
+    {
+      "id": "cadf3d6936d",
+      "title": "Bread omelette",
+      "ingredients": [
+        "Eggs",
+        "Milk",
+        "Sugar",
+        "Bread"
+      ],
+      "instructions": "Make and enjoy",
+      "image": "https://www.themealdb.com/images/media/meals/hqaejl1695738653.jpg"
+    }
+  ]
+}
