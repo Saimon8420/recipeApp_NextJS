@@ -34,38 +34,6 @@
       "image": "https://www.themealdb.com/images/media/meals/wuxrtu1483564410.jpg"
     },
     {
-      "id": "8e017cacadf",
-      "title": "Lamb Biryani",
-      "ingredients": [
-        "Hilsa fish",
-        "Begun",
-        "Aloo",
-        "Shrimp",
-        "Chilli Sauce",
-        "Panch Phoron",
-        "Bay leaves",
-        "Green chilies",
-        "Mangoes"
-      ],
-      "instructions": "Grind the cashew, poppy seeds and cumin seeds into a smooth paste, using as little water as possible.\nSet aside.\nDeep fry the sliced onions when it is hot.\nDon’t overcrowd the oil.\nWhen the onions turn light brown, remove from oil and drain on paper towel.\nThe fried onion will crisp up as it drains.\nAlso fry the cashewnuts till golden brown.\nSet aside.\nWash the rice and soak in water for twenty minutes.\nMeanwhile, take a big wide pan, add oil in medium heat, add the sliced onions.",
-      "image": "https://www.themealdb.com/images/media/meals/xrttsx1487339558.jpg"
-    },
-    {
-      "title": "Chicken Biryani",
-      "ingredients": [
-        "Aloo",
-        "Shrimp",
-        "Chilli Sauce",
-        "Panch Phoron",
-        "Bay leaves",
-        "Green chilies",
-        "Mangoes"
-      ],
-      "instructions": "lamsddm dnbwf  fscnf fhcsnfwnsfj fn  sc bxc wf fscvnbsf neff",
-      "image": "https://www.themealdb.com/images/media/meals/xrttsx1487339558.jpg",
-      "id": "e017cacadf3"
-    },
-    {
       "id": "017cacadf3d",
       "title": "Tandoori chicken",
       "ingredients": [
@@ -137,12 +105,45 @@
       "image": "https://www.themealdb.com/images/media/meals/yxsurp1511304301.jpg"
     },
     {
-      "id": "cadf3d6936d",
+      "title": "Lamb Rogan Josh",
+      "ingredients": [
+        "Mint leaves",
+        "Shrimp",
+        "Hilsa fish",
+        "Green chilies",
+        "Coconut milk",
+        "Bananas",
+        "Lime juice",
+        "Yogurt",
+        "Coriander seeds"
+      ],
+      "instructions": "Put the onions in a food processor and whizz until very finely chopped.\nHeat the oil in a large heavy-based pan, then fry the onion with the lid on, stirring every now and then, until it is really golden and soft.\nAdd the garlic and ginger, then fry for 5 mins more.\nTip the curry paste, all the spices and the bay leaves into the pan, with the tomato purée.\nStir well over the heat for about 30 secs, then add the meat and 300ml water.\nStir to mix, turn down the heat, then add the yogurt.\nCover the pan, then gently simmer for 40-60 mins until the meat is tender and the sauce nice and thick.\nServe scattered with coriander, with plain basmati or pilau rice.",
+      "image": "https://www.themealdb.com/images/media/meals/vvstvq1487342592.jpg",
+      "id": "7894bc50d01"
+    },
+    {
+      "id": "894bc50d017",
+      "title": "Matar Paneer",
+      "ingredients": [
+        "Eggs",
+        "Milk",
+        "Flour",
+        "Yeast",
+        "Vanilla extract",
+        "Ghee",
+        "Mustard oil",
+        "Chili powder",
+        "Turmeric powder"
+      ],
+      "instructions": "Heat the oil in a frying pan over high heat until it’s shimmering hot.\nAdd the paneer, then turn the heat down a little.\nFry until it starts to brown at the edges, then turn it over and brown on each side – the paneer will brown faster than you think, so don’t walk away.\nRemove the paneer from the pan and drain on kitchen paper.\nPut the ginger, cumin, turmeric, ground coriander and chilli in the pan, and fry everything for 1 min.\nAdd the tomatoes, mashing them with the back of a spoon and simmer everything for 5 mins until the sauce smells fragrant.\nAdd a splash of water if it’s too thick.\nSeason well.\nAdd the peas and simmer for a further 2 mins, then stir in the paneer and sprinkle over the garam masala.\nDivide between two bowls, top with coriander leaves and serve with naan bread, roti or rice.",
+      "image": "https://www.themealdb.com/images/media/meals/xxpqsy1511452222.jpg"
+    },
+    {
+      "id": "94bc50d0177",
       "title": "Bread omelette",
       "ingredients": [
         "Eggs",
         "Milk",
-        "Sugar",
         "Bread"
       ],
       "instructions": "Make and enjoy",

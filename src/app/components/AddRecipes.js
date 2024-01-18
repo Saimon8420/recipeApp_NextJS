@@ -1,13 +1,17 @@
 "use client"
 import { uid } from 'uid';
 import React, { useEffect, useState } from 'react';
-import { getIngredients } from '../api/ingredients';
+import { deleteIngredients, getIngredients } from '../api/ingredients';
 import { addRecipes } from '../api/recipes';
 import { useRouter } from 'next/navigation';
 
 const AddRecipes = () => {
     const [ingredients, setIngredients] = useState([]);
     const router = useRouter();
+
+    // to handle delete ingredients
+    const [deleted, setDeleted] = useState(false);
+
     useEffect(() => {
         router.refresh();
         async function fetchData() {
@@ -15,7 +19,7 @@ const AddRecipes = () => {
             setIngredients(data);
         };
         fetchData();
-    }, [])
+    }, [deleted])
 
     // for getting user inputs
     const [title, setTitle] = useState("");
@@ -53,12 +57,28 @@ const AddRecipes = () => {
     // Remove from selected Ingredients
     const [remove, setRemove] = useState("");
 
+    // console.log(ingredients?.id);
+
     useEffect(() => {
         if (remove.length !== 0) {
             setAddIngredients(addIngredients.filter(each => each.toLowerCase() !== remove.toLowerCase()))
             setSelect(select.filter(each => each.toLowerCase() !== remove.toLowerCase()))
         }
-    }, [remove])
+    }, [remove]);
+
+    // handle Delete ingredients
+    const handleDelete = async (id) => {
+        const promptData = prompt(`Do you want to delete this? Then enter "YES" or "yes"`);
+        if (promptData === "YES" || promptData === "yes") {
+            setDeleted(false);
+            const res = await deleteIngredients(id);
+            setDeleted(true);
+            alert("Data deleted successfully");
+        }
+        else {
+            alert("Something went wrong!!");
+        }
+    }
 
     return (
         <div>
@@ -80,23 +100,36 @@ const AddRecipes = () => {
                     <br />
 
                     {/* Select ingredients */}
-                    <div className="flex flex-1 flex-col items-center  bg-white rounded-md shadow-sm mb-4">
+                    <div className="flex flex-1 flex-col bg-white rounded-md shadow-sm mb-4">
                         <label htmlFor="select" className='text-white bg-indigo-600 w-full p-2'>Select ingredients from here</label>
-                        <select
-                            required
-                            className="h-full w-full border-0 bg-transparent py-2 pb-2 pl-2 pr-7 text-gray-500 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-md"
-                            onClick={(e) => {
-                                if (e.target.value !== "Add New +") {
-                                    setSelect([...select, e.target.value])
-                                }
-                            }}
-                            multiple={true}
-                        >
+
+                        <p className='px-4 py-2'>To select, click on the name. To edit click on the edit, and for delete click delete. And to add new ingredient, click Add New.</p>
+
+                        <div style={{ height: "200px", overflowY: "scroll", margin: "10px 0px" }}>
                             {
-                                ingredients.map(each => <option key={each?.id}>{each?.label}</option>)
+                                ingredients.map(each => <div className='bg-indigo-400 flex justify-between rounded gap-5 p-1 mb-2 mt-2 ml-4 mr-4' key={each?.id}>
+                                    {/* Each ingredients */}
+                                    <p className='cursor-pointer hover:text-white' onClick={(e) => {
+                                        if (e.target.innerText !== "Add New +") {
+                                            setSelect([...select, e.target.innerText])
+                                        }
+                                    }}>{each?.label}</p>
+
+                                    {/* Edit/delete ingredients */}
+
+                                    <div className='flex gap-2'>
+                                        <span className=' bg-white rounded px-1 cursor-pointer' onClick={() =>
+                                            router.push(`/editIngredient/${each?.id}`)}>Edit</span>
+
+                                        <span className='text-red-500 bg-white rounded px-1 cursor-pointer' onClick={() => handleDelete(each?.id)}>Delete</span>
+                                    </div>
+
+                                </div>)
                             }
-                            <option className='font-bold' onClick={() => router.push("/addIngredient")}>Add New +</option>
-                        </select>
+
+                            {/* Add new ingredients */}
+                            <p className='font-bold bg-red-400 ml-4 rounded mx-auto w-fit p-1 my-1 mt-4 text-white cursor-pointer' onClick={() => router.push("/addIngredient")}>Add New +</p>
+                        </div>
                     </div>
                 </div>
 
@@ -106,10 +139,10 @@ const AddRecipes = () => {
                         setAddIngredients([]);
                         setSelect([]);
                     }}>X</span></label>
-                    <p className='p-1'>*Click each to remove individual</p>
+                    <p className='p-1'>*Click each ingredient to remove individual</p>
                     <div className='bg-white rounded p-2 grid grid-cols-3 gap-2'>
                         {
-                            addIngredients?.length === 0 && <p className='bg-red-400 rounded p-1'>Empty select from the list</p>
+                            addIngredients?.length === 0 && <p className='bg-red-400 rounded p-1'>Empty list! Select from the list</p>
                         }
                         {
                             addIngredients.map(each =>

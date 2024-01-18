@@ -19,5 +19,5 @@ npm run dev
 ```
 
 ## Project Description
-This is a react based next-js web app, which name is Recipe app. where user can search different type of recipes, can add recipes,can update existed recipe, also can delete recipes. To add a recipe user should give recipe title,ingredients,instructions,image.
+This is a react based next-js web app, which name is Recipe app. where user can search different type of recipes, can add recipes,can update existed recipe, also can delete recipes. To add a recipe user should give recipe title,ingredients,instructions,image. There was some ingredients, but if user want to add more, then user can add, also update any ingredients as well as can delete.
 

@@ -1,12 +1,14 @@
 "use client"
 import React, { useEffect, useState } from 'react';
-import { getAllRecipes } from '../api/recipes';
+import { deleteRecipes, getAllRecipes } from '../api/recipes';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 const DisplayRecipe = () => {
     const router = useRouter();
     const [data, setData] = useState([]);
     const [searchData, setSearchData] = useState("");
+
+    const [isDelete, setIsDelete] = useState(false);
 
     useEffect(() => {
         router.refresh();
@@ -15,7 +17,20 @@ const DisplayRecipe = () => {
             setData(data);
         }
         getRecipes();
-    }, [])
+    }, [isDelete])
+
+    const handleDelete = async (id) => {
+        const approval = prompt(`Do you want to delete this recipe? then enter "YES" or "yes"`);
+        if (approval === "YES" || approval === "yes") {
+            setIsDelete(false);
+            const res = await deleteRecipes(id);
+            setIsDelete(true);
+            alert(`Recipe ${res?.title} deleted successfully!`)
+        }
+        else {
+            alert("Something went wrong");
+        }
+    }
 
     return (
         <div className='flex flex-col gap-8 mt-2 w-full'>
@@ -47,8 +62,9 @@ const DisplayRecipe = () => {
                                 <button
                                     type="button"
                                     className="rounded-md bg-red-600 px-2 py-1 text-sm font-semibold text-white shadow-sm hover:bg-red-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-600"
+                                    onClick={() => handleDelete(each?.id)}
                                 >
-                                    <Link href={"/addNewRecipes"}>Delete</Link>
+                                    Delete
                                 </button>
                             </div>
                         </div>

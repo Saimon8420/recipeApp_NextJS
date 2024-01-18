@@ -169,10 +169,6 @@
       "label": "Doi"
     },
     {
-      "id": "7e8cb77c15f",
-      "label": "cha"
-    },
-    {
       "id": "633455b81d7",
       "label": "Tea"
     },
@@ -182,47 +178,19 @@
     },
     {
       "id": "c8e16ec9b72",
-      "label": "orange"
+      "label": "Orange"
     },
     {
       "id": "6fe4b0e41b1",
-      "label": "apple"
-    },
-    {
-      "id": "fe4b0e41b1b",
-      "label": "apple"
-    },
-    {
-      "id": "e4b0e41b1bd",
-      "label": "apple"
-    },
-    {
-      "id": "4b0e41b1bdc",
-      "label": "apple"
-    },
-    {
-      "id": "b0e41b1bdcc",
-      "label": "apple"
-    },
-    {
-      "id": "0e41b1bdcc8",
-      "label": "apple"
-    },
-    {
-      "id": "e41b1bdcc83",
-      "label": "hello"
-    },
-    {
-      "id": "8cdb0dfe3a8",
-      "label": "kola"
-    },
-    {
-      "id": "cdb0dfe3a8a",
-      "label": "biscuit"
+      "label": "Apple"
     },
     {
       "id": "acadf3d6936",
       "label": "Bread"
+    },
+    {
+      "id": "2b4e925b5a2",
+      "label": "Tea"
     }
   ]
 }

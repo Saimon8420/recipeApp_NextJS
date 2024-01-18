@@ -105,10 +105,10 @@ const EditRecipe = ({ data }) => {
                         setAddIngredients([]);
                         setSelect([]);
                     }}>X</span></label>
-                    <p className='p-1'>*Click each to remove individual</p>
+                    <p className='p-1'>*Click each ingredient to remove individual</p>
                     <div className='bg-white rounded p-2 grid grid-cols-3 gap-2'>
                         {
-                            addIngredients?.length === 0 && <p className='bg-red-400 rounded p-1'>Empty select from the list</p>
+                            addIngredients?.length === 0 && <p className='bg-red-400 rounded p-1'>Empty list! Select from the list</p>
                         }
                         {
                             addIngredients.map(each =>
